@@ -1,0 +1,13 @@
+# A square pyramid, for Mesh Viewer (Chapter 32): five corners, a square
+# base and four triangles. The triangles are listed clockwise from outside,
+# the wrong way round, which the loader puts right.
+v -1 0 -1
+v 1 0 -1
+v 1 0 1
+v -1 0 1
+v 0 1.8 0
+f 1 2 3 4
+f 1 2 5
+f 2 3 5
+f 3 4 5
+f 4 1 5

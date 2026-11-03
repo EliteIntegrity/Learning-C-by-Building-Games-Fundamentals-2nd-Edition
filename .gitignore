@@ -1,0 +1,101 @@
+# Visual Studio's working files and build output. With the solution and
+# the project in one folder, as each demo has them, Visual Studio keeps its
+# working files in .vs and in a folder named after the project, and builds
+# the program in x64. A pattern that took in every x64 folder would hide
+# SDL's own, SDL3\lib\x64, so each demo's folder is named
+.vs/
+*/x64/
+Skeleton/Skeleton/
+Plotter/Plotter/
+Vector Lab/Vector Lab/
+Chase/Chase/
+Field of View/Field of View/
+Which Side/Which Side/
+Unit Circle/Unit Circle/
+Rotator/Rotator/
+Thrust/Thrust/
+Ease Lab/Ease Lab/
+Critters/Critters/
+Bouncy/Bouncy/
+Shape Gallery/Shape Gallery/
+Laser/Laser/
+Magnet/Magnet/
+Path Designer/Path Designer/
+Overlap Playground/Overlap .e32a48bd/
+SAT Visualizer/SAT Visualizer/
+Bullet Time/Bullet Time/
+Walls and Slides/Walls and Slides/
+10000 Balls/10000 Balls/
+Impulse/Impulse/
+Noise Fields/Noise Fields/
+Flood/Flood/
+A-Star Explorer/A-Star Explorer/
+Texture Quad/Texture Quad/
+Solar System/Solar System/
+Matrix Sandbox/Matrix Sandbox/
+Camera/Camera/
+Normals/Normals/
+Transforming a Cube/Transfor.39be66fa/
+Projector/Projector/
+Fly Camera/Fly Camera/
+Mesh Viewer/Mesh Viewer/
+Solid Cube/Solid Cube/
+Textured Cube/Textured Cube/
+Tumble/Tumble/
+*.user
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+
+# CMake (Appendix F): the build folder, and what each demo's program puts
+# in its folder: the program itself, the font, and on Windows, SDL's DLLs
+build/
+*/*.exe
+*/*.dll
+*/RobotoMono-Light.ttf
+Skeleton/Skeleton
+Plotter/Plotter
+Vector Lab/Vector_Lab
+Chase/Chase
+Field of View/Field_of_View
+Which Side/Which_Side
+Unit Circle/Unit_Circle
+Rotator/Rotator
+Thrust/Thrust
+Ease Lab/Ease_Lab
+Critters/Critters
+Bouncy/Bouncy
+Shape Gallery/Shape_Gallery
+Laser/Laser
+Magnet/Magnet
+Path Designer/Path_Designer
+Overlap Playground/Overlap_Playground
+SAT Visualizer/SAT_Visualizer
+Bullet Time/Bullet_Time
+Walls and Slides/Walls_and_Slides
+10000 Balls/10000_Balls
+Impulse/Impulse
+Noise Fields/Noise_Fields
+Flood/Flood
+A-Star Explorer/A-Star_Explorer
+Texture Quad/Texture_Quad
+Solar System/Solar_System
+Matrix Sandbox/Matrix_Sandbox
+Camera/Camera
+Normals/Normals
+Transforming a Cube/Transforming_a_Cube
+Projector/Projector
+Fly Camera/Fly_Camera
+Mesh Viewer/Mesh_Viewer
+Solid Cube/Solid_Cube
+Textured Cube/Textured_Cube
+Tumble/Tumble
+
+# VS Code's settings, and the Mac's folder files
+.vscode/
+.DS_Store
+
+# make_repo.py's marker, so it can refresh this folder
+.made_by_make_repo

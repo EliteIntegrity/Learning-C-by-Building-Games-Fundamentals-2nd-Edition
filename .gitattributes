@@ -1,0 +1,9 @@
+# Keep every file exactly as it is: the code with Windows line endings, as
+# Visual Studio writes it, and the font and pyramid.obj as they are. Visual
+# Studio, Clang, GCC, and CMake all read Windows line endings.
+* -text
+
+# SDL and SDL_ttf are other people's code, so GitHub's language bar counts
+# only the demos, which are C++.
+SDL3/** linguist-vendored
+SDL3_ttf/** linguist-vendored
